@@ -1,19 +1,14 @@
 package main
 
 import (
-	"bufio"
 	"fmt"
-	"os"
 	"strconv"
 	"strings"
 )
 
-var reader = bufio.NewReader(os.Stdin)
 
-const mainTitle = "BMI calculator"
-const separator = "----------------------"
-const weightPrompt = "Ente your weight (kg): "
-const heightPrompt = "Ente your height (m): "
+
+
 
 func main() {
 	//Output information
@@ -40,6 +35,3 @@ func main() {
 	fmt.Printf("Your BMI : %.2f\n", bmi)
 }
 
-// const : pairnoyn timew sthn diarkeia toy 
-// compile time
-// varaibles: pairnoyn timew sthn diarkeia toy run time

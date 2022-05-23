@@ -1,0 +1,7 @@
+imports are file specific
+same folder? same package
+differeent folder? different package
+-----
+for const snippets we create a new package: name info
+ara we create a new folder with the name info and a new file named info. No need to name the file info !
+
