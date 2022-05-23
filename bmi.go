@@ -4,22 +4,21 @@ import (
 	"fmt"
 	"strconv"
 	"strings"
+
+	"github.com/chrlsia/bmi/info"
 )
-
-
-
 
 
 func main() {
 	//Output information
-	fmt.Println(mainTitle)
-	fmt.Println(separator)
+	fmt.Println(info.MainTitle)
+	fmt.Println(info.Separator)
 
 	//Prompt for user input (weight + height)
-	fmt.Print(weightPrompt)
+	fmt.Print(info.WeightPrompt)
 	weightInput, _ := reader.ReadString('\n')
 
-	fmt.Print(heightPrompt)
+	fmt.Print(info.HeightPrompt)
 	heightInput, _ := reader.ReadString('\n')
 
 	//Save that user input in variables
