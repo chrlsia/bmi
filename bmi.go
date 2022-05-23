@@ -39,3 +39,7 @@ func main() {
 	//Output the calculated bmi
 	fmt.Printf("Your BMI : %.2f\n", bmi)
 }
+
+// const : pairnoyn timew sthn diarkeia toy 
+// compile time
+// varaibles: pairnoyn timew sthn diarkeia toy run time
