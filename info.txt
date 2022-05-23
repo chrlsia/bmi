@@ -1,2 +1,2 @@
-we have to import info.go file into bmi.go
+
 
